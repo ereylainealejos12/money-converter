@@ -1,0 +1,43 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<a href="{% url 'home' %}">Home</a>
+<div class="container text-center">
+    <h2>This is your Convertion</h2>
+    <table class ="table table-striped">
+        <tr>
+            <th>currency</th>
+            <th>Rate</th>
+
+        </tr>
+        <tr>
+            <td>Saudi Riyals</td>
+            <td>{{sr}}</td>
+
+        </tr>
+        <tr>
+            <td>Japanese Yen</td>
+            <td>{{jyp}}</td>
+
+        </tr>
+        <tr>
+            <td>us dollar</td>
+            <td>{{us}}</td>
+        </tr>
+        <tr>
+            <td>Canadian dollar</td>
+            <td>{{cd}}</td>
+
+        </tr>
+        <tr>
+            <td>Unites Arab Emirates Dirhams</td>
+            <td>{{uae}}</td>
+
+
+        </tr>
+
+    </table>
+</div>
+
+
+</body>
+</html>
